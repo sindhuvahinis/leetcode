@@ -1,3 +1,6 @@
+# 994. Rotten Tomatoes
+# MEDIUM
+
 from collections import deque
 
 class Solution:
