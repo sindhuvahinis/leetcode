@@ -17,9 +17,8 @@ class Solution:
 
             count = count1 + count2 + 1
             _sum = sum1 + sum2 + root.val
-            # print(count, _sum)
 
-            self.res = max(self.res, _sum)
+            self.res = max(self.res, _sum / count)
             return [count, _sum]
 
         helper(root)
