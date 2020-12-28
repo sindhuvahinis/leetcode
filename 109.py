@@ -28,4 +28,3 @@ class Solution:
             ans.append(key)
 
         return ''.join(ans)
-
